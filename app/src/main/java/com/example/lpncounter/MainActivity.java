@@ -66,7 +66,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     tempArr.add(digits[k]);
 
                 String newLPNumber = TextUtils.join("", tempArr);
-                if(newLPNumber != ""){
+                if(newLPNumber != "" && newLPNumber.length < 5)
+                {
                     numbersInNewLP.add(Integer.parseInt(newLPNumber));
                 }
                 tempArr.clear();
