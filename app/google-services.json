@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "383072826342",
+    "project_id": "lpncounter",
+    "storage_bucket": "lpncounter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383072826342:android:df03c42a8b1028073b9c27",
+        "android_client_info": {
+          "package_name": "com.example.lpncounter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383072826342-njrjum8cvb450v0o8v9ukavmefden7g8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmsw2NG8H7WwqtWYs6cxxJhBA-CgdMvp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383072826342-njrjum8cvb450v0o8v9ukavmefden7g8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

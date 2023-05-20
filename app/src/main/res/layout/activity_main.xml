@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reachedNumberTV"
+        android:textColor="@color/black"
+        android:text=""
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="50dp"
+        />
+
+    <EditText
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/LPNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" License Plate Number "
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/addBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+  </LinearLayout>
